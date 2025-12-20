@@ -1,0 +1,3 @@
+# Ainda havderão novidades
+
+Uma nova versão do backend para o meu projeto de telemetria, mas dessa vez criado com mais cuidado, e mais experiência. Veja o [projeto no meu linkedin](https://www.linkedin.com/posts/williamsdavid5_uma-olhadinha-no-meu-tcc-estou-desenvolvendo-activity-7339454884875776000-htzZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADPKvzUB4mBdwubOEXk4TPh4uovlk6pFloU) e o [seu repositório no github](https://github.com/williamsdavid5/SITREV_frontend).
