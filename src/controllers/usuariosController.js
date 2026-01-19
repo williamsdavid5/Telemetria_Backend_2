@@ -4,6 +4,7 @@ const usuariosRepository = require('../repositories/usuariosRepository');
 async function criarUsuario(req, res) {
     try {
         const { nome, email, senha, role } = req.body;
+        const { empresa_id } = req.usuario;
 
         if (!nome || !email || !senha) {
             return res.status(400).json({ error: 'Dados obrigatórios ausentes' });
@@ -15,7 +16,8 @@ async function criarUsuario(req, res) {
             nome,
             email,
             senha_hash,
-            role: role || 'user'
+            role: role || 'user',
+            empresa_id
         });
         return res.status(201).json(usuario);
     } catch (err) {
